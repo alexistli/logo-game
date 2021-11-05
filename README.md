@@ -22,21 +22,29 @@ the setup() and handle() methods of the BaseRequestHandler to implement communic
 
 ## Installation
 
+### Server
+
 Requirements:
 - Python 3.8
-- Latest version of node.js
 
-Install Numpy:
+Install Server:
 
 ```bash
-pip install numpy
+$ pip install numpy
 ```
 
-Install Numpy:
+@TODO: Make the project installable
+
+### Client
+
+Requirements:
+- Latest version of node.js
+
+Install Client:
 
 ```bash
-cd client
-npm install
+$ cd client
+$ npm install
 ```
 
 ## Usage
@@ -46,8 +54,8 @@ npm install
 Run the python server in a console:
 
 ```bash
-cd server
-python main.py
+$ cd server
+$ python main.py
 ```
 
 ### Client
@@ -57,8 +65,8 @@ It will connect to your server, run several commands and verify the output.
 Run the tests:
 
 ```bash
-cd client
-npm test
+$ cd client
+$ npm test
 ```
 
 ## Improvements
